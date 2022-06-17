@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="583c5012-e517-44f2-9416-76de6c3fc6fe" name="Changes" comment="Merged">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PersonKotlin.kt" afterDir="false" />
+    <list default="true" id="583c5012-e517-44f2-9416-76de6c3fc6fe" name="Changes" comment="Hello world with Kotlin">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gru/score/Student.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Kotlin.PersonKotlinKt">
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.language.Kotlin&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Kotlin.StudentKt">
     <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gru.Hello" />
       <module name="myproject9.main" />
@@ -60,8 +65,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gru.com.gru.score.StudentKt" />
+      <module name="myproject9.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.StudentKt" />
         <item itemvalue="Kotlin.PersonKotlinKt" />
         <item itemvalue="Application.Hello" />
       </list>
@@ -111,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654847258251</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Hello world with Kotlin">
+      <created>1654849026087</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654849026087</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,6 +160,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="Merged" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merged" />
+    <MESSAGE value="Hello world with Kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hello world with Kotlin" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
