@@ -9,6 +9,11 @@ public class ScoringFile {
         try {
             FileReader fileReader = new FileReader("score.txt"); //throws
             int data = fileReader.read();
+            while(data !=-1){
+                System.out.print((char)data);
+                data = fileReader.read();
+            }
+
         } catch (FileNotFoundException e){
             System.out.println("檔案讀取失敗");
         }catch(IOException e){
